@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Arman's Bookshop | Pay</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="js/script.js"></script>
+    
+    <!-- Nav Bar -->
+
+        <nav>
+          <div class="container-2">
+
+          <div class="title-div">
+            <h1 class="title">Arman's Bookshop</h1>
+            <img class="books-logo" src="images/books logo gif.gif" alt="books-gif">
+          </div>
+
+            <div class="nav-div">
+              <ul>
+                <li><a class="size-class" href="index.html">Home</a></li>
+                <li><a class="size-class" href="#">About Us</a></li>
+                <li><a class="size-class" href="#">Contact Us</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+
+        <!-- Payment Section -->
+
+        <h2 class="payment-h2">Payment Options</h2>
+
+        <hr>
+
+        <div class="top-form">
+
+            <p class="debit-card">Debit / Credit Card</p>
+            <img class="mastercard-logo" src="images/mastercard logo.gif" alt="mastercard-logo">
+
+        </div>
+
+        <div class="mid-form">
+
+            <form action="#">
+
+                    <label for="ccnum">Credit card number</label>
+                    <input class="ccnum" type="text" id="cardNumber" placeholder="1111222233334444">
+
+                    <br>
+                    
+                    <label for="exp">Expiration Date</label>
+                    <input type="text" class="exp-1" id="expMonth" placeholder="MM">
+                    <input type="text" class="exp-2" id="expYear" placeholder="YYYY">
+
+                    <br>
+
+                    <label for="seccode">Security Code</label>
+                    <input type="text" class="seccode" id="cvvCode" placeholder="">
+
+                <p class="message-pay">(3-4 digit code, normally on the back of your card)</p>
+    
+                <button id="continue">Continue</button>
+            </form>
+
+        </div>
+
+</body>
+</html>

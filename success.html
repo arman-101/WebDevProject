@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Arman's Bookshop | Success</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="js/script.js"></script>
+    
+    <!-- Nav Bar -->
+
+        <nav>
+          <div class="container-2">
+
+          <div class="title-div">
+            <h1 class="title">Arman's Bookshop</h1>
+            <img class="books-logo" src="images/books logo gif.gif" alt="books-gif">
+          </div>
+
+            <div class="nav-div">
+              <ul>
+                <li><a class="size-class" href="index.html">Home</a></li>
+                <li><a class="size-class" href="#">About Us</a></li>
+                <li><a class="size-class" href="#">Contact Us</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+
+        <!-- Success Section -->
+
+        <h2 class="payment-h2">Payment Options</h2>
+
+        <hr>
+
+        <div class="top-form-success">
+
+            <p class="debit-card-success">Debit / Credit Card</p>
+            <img class="mastercard-logo-success" src="images/mastercard logo.gif" alt="mastercard-logo">
+            <p class="success-msg" id="success-msg">Your credit card number ends in **** **** **** 1234</p>
+
+            <script>
+              let last_four = localStorage.getItem("storageName");
+              document.getElementById("success-msg").innerHTML = `Your credit card number ends in **** **** **** ${last_four}`;
+            </script>
+        </div>
+
+        <div class="mid-form-success">
+
+        </div>
+
+</body>
+</html>

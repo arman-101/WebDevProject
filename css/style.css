@@ -1,0 +1,320 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	background-color: #457b9d;
+	font-family: 'Inter', sans-serif;
+
+	color: #f1faee;
+}
+
+p {
+	font-weight: 300;
+	font-size: 15px;
+}
+
+/* Nav Bar */
+
+.size-class {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.title {
+	float: left;
+	color: #f1faee;
+
+	margin: 0;
+	margin-left: 50px;
+	margin-top:25px;
+
+	font-weight: 500;
+}
+
+.books-logo {
+	height: 75px;
+	width: 75px;
+
+	float: left;
+
+	margin: 0;
+	margin-left: 25px;
+	margin-top: 5px;
+	padding: 0;
+}
+
+nav {
+    background-color: #457b9d;
+    overflow: hidden;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 20px;
+}
+
+nav li {
+	padding-right: 100px;
+	margin-left: 70px;
+}
+  
+nav li a {
+	display: block;
+	color: #f1faee;
+	text-align: center;
+	padding: 10px 16px; /* adjust padding */
+	text-decoration: none;
+	border-radius: 25px; /* add rounded corners */
+	transition: background-color 0.3s ease;
+}
+
+nav li a:hover {
+	background-color: #f1faee;
+	color: #457b9d;
+}
+
+
+/* Books Sections */
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+h2 {
+	font-weight: 400;
+}
+
+.container-2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.column {
+	margin-top: 10px;
+	width: calc(50% - 10px);
+	margin-bottom: 20px;
+
+	background-color: #e63946;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+.book-image {
+	width: 200px;
+	height: 300px;
+	margin-bottom: 10px;
+	float: left;
+	margin-right: 20px;
+
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.book-cover-image {
+	width: 200px;
+	height: 300px;
+
+	border: 1px solid #f1faee;
+}
+
+.description {
+	text-align: left;
+	overflow: hidden;
+}
+.pay-button {
+	background-color: #457b9d;
+	color: #f1faee;
+	padding: 10px 20px;
+	border: 1px solid #f1faee;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: 10px;
+}
+/* Books Section CSS for mobile and tablet layout */
+@media only screen and (max-width: 768px) {
+	.container {
+		flex-direction: column;
+	}
+	.column {
+		width: 100%;
+	}
+
+	.title-div {
+		width: 100%;
+	}
+
+	.nav-div {
+		width: 100%;
+		flex-direction: column;
+		float: left;
+		margin: 0;
+	}
+
+	ul {
+		flex-direction: column;
+	}
+
+	li {
+		flex-direction: column;
+	}
+
+	.book-image {
+		margin-right: 0;
+	}
+}
+
+/* Payment Page */
+
+.mid-form {
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+	padding: 10px;
+
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: #e63946;
+}
+
+.payment-h2 {
+	margin-top: 50px;
+}
+
+.debit-card {
+	margin: 0;
+	margin-top: 7px;
+	padding: 0;
+
+	float: left;
+}
+
+.mastercard-logo {
+	width: 50px;
+	height: 30px;
+
+	border: 1px solid white;
+	margin-top: 1px;
+	margin-left: 30px;
+	display: inline;
+}
+
+hr {
+	width: 75%;
+}
+
+h2 {
+	margin-left: 200px;
+}
+
+.top-form {
+	margin-left: 200px;
+}
+
+
+.ccnum {
+	width: 150px;
+	margin-left: 20px;
+}
+
+.exp-1 {
+	width: 40px;
+	margin-left: 50px;
+}
+
+.exp-2 {
+	width: 60px;
+	margin-left: 0px;
+}
+
+.seccode {
+	width: 50px;
+	margin-left: 58px;
+}
+
+.message-pay {
+	margin: 10px;
+}
+
+button {
+	margin: 10px;
+	padding: 5px;
+
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+input {
+	margin: 10px;
+	padding: 2px;
+
+	border: 1px solid white;
+	border-radius: 2px;
+}
+
+label {
+	margin: 10px;
+}
+
+/* Success Page */
+
+.mid-form-success {
+	width: 1003px;
+	height: 210px;
+
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+	padding: 10px;
+
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: #e63946;
+}
+
+.top-form-success {
+	display: inline;
+}
+
+.debit-card-success {
+	margin: 0;
+	margin-top: 8px;
+	margin-left: 200px;
+	padding: 0;
+
+	float: left;
+}
+
+.mastercard-logo-success {
+	width: 50px;
+	height: 30px;
+
+	border: 1px solid white;
+
+	display: inline;
+	margin-left: 40px;
+	margin-right: 25px;
+	margin-top: 2px;
+}
+
+.success-msg {
+
+	float: right;
+	position: fixed;
+	display: inherit;
+	margin-right: 300px;
+	margin-left: 100px;
+	margin-top: 10px;
+}

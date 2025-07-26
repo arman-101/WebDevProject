@@ -5,7 +5,8 @@
 
 ## Details
 - BookShop website - pick a book, pay for it and client tests to see if bank details are correct, if so you're directed to the success page `success.html` with the last 4 digits of your bank card number.
-- As simple as they come - basic HTML, CSS and JS was used. Year 1 MMU project for the Web Development Module.
+- As simple as they come - basic HTML, CSS and JS was used.
+- Year 1 MMU project for the Web Development Module.
 
 ## To Run Online
 - Go to - https://arman-101.github.io/WebDevProject/
